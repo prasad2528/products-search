@@ -1,0 +1,70 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+.search {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 240px;
+  padding-left: 13px;
+}
+.search-container {
+  background-color: #f1f5f9;
+  height: 40px;
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  color: #000;
+  height: 90%;
+  margin-right: 20px;
+}
+.active {
+  color: #0967d2;
+  font-weight: 700;
+}
+/* Write your CSS here */
+.category-list {
+  list-style-type: none;
+  text-align: start;
+  padding-left: 0;
+  color: #64748b;
+}
+.category {
+  margin-bottom: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.rating-list {
+  padding-left: 0;
+}
+.each-rating {
+  display: flex;
+  width: 290px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.images {
+  width: 80%;
+  height: 40px;
+}
+.button {
+  width: 150px;
+  height: 40px;
+  border: 2px solid #0967d2;
+  color: #0967d2;
+  font-weight: 700;
+}
